@@ -6,9 +6,11 @@
 4. Otworzy się kolejne okno, w którym kliknij na ikonę “+” a następnie wybierz emulator z jakiego chcesz korzystać.
 5. Wróć do miejsca gdzie znalazłeś "Virtual Device Manager". Teraz wybierz "SDK Manager".
 6. Przejdź do sekcji “SDK Tools” i zaznacz:
-[ x ] Android SDK Command-Line tools
-[ x ] Android SDK Platform-Tools
-[ x ] Google USB Driver
+
+- [x] Android SDK Command-Line tools
+- [x] Android SDK Platform-Tools
+- [x] Google USB Driver
+
 I kliknij “OK”.
 7. Znajdź i skopiuj ścieżkę do katalogu “platform-tools”, jeżeli używasz ustawień domyślnych powinna być to ścieżka: C:\Users\{Nazwa_użytkownika}\AppData\Local\Android\Sdk\platform-tools
 8. Dodaj tą ściężkę do PATH.
