@@ -3,7 +3,20 @@ Zadania 1 i 2 zakładają możliwość oglądania [kodu źródłowego aplikacji]
 Podczas interakcji z aplikacji, zwracaj uwagę na alerty/informacje zwrotne.
 
 ## Komendy Adb
-
+```
+adb version
+adb devices
+adb -s <nr_seryjny> <polecenie>
+adb shell
+adb push <PC-path> <android-path>
+adb pull <android-path> <PC-path>
+am (adb shell am start …)
+… am start -a
+… am start -d
+Intent Extras
+--ez
+--es
+```
 
 ## Zadanie 1: Object Serialization
 Przeanalizuj jak zapisywane są dane użytkownika i obejdź zabezpieczenia do kliknięcia przycisku "Load".
