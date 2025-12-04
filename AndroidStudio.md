@@ -1,20 +1,21 @@
 # Instalowanie Android Studio i Adb
 
 1. Pobierz odpowiedni installer ze strony: https://developer.android.com/studio?hl=pl
-2. Uruchom pobrany plik z domyślnymi ustawieniami
-3. Kiedy program się zainstaluje, otwórz go i w pierwszym oknie wybierz “More Actions”, następnie “Virtual Device Manager”. Jeśli nie widzisz "More Actions" poszukaj "Virtual Device Manager" w innym miejscu.
-4. Otworzy się kolejne okno, w którym kliknij na ikonę “+” a następnie wybierz emulator z jakiego chcesz korzystać.
-5. Wróć do miejsca gdzie znalazłeś "Virtual Device Manager". Teraz wybierz "SDK Manager".
+2. Uruchom pobrany plik z domyślnymi ustawieniami.
+3. Kiedy program się zainstaluje, otwórz go i w pierwszym oknie wybierz “More Actions”, następnie “Virtual Device Manager”. Jeśli nie widzisz "More Actions", poszukaj "Virtual Device Manager" w innym miejscu.
+4. Otworzy się kolejne okno, w którym kliknij na ikonę “+”, a następnie wybierz emulator, z którego chcesz korzystać.
+5. Wróć do miejsca, gdzie znalazłeś "Virtual Device Manager". Teraz wybierz "SDK Manager".
 6. Przejdź do sekcji “SDK Tools” i zaznacz:
+   - [x] Android SDK Command-Line tools
+   - [x] Android SDK Platform-Tools
+   - [x] Google USB Driver  
 
-- [x] Android SDK Command-Line tools
-- [x] Android SDK Platform-Tools
-- [x] Google USB Driver
+   Następnie kliknij “OK”.
+7. Znajdź i skopiuj ścieżkę do katalogu “platform-tools”. Jeżeli używasz ustawień domyślnych, powinna być to ścieżka:  
+   `C:\Users\{Nazwa_użytkownika}\AppData\Local\Android\Sdk\platform-tools`
+8. Dodaj tę ścieżkę do PATH.
+9. Uruchom terminal i wpisz w nim `adb version` w celu weryfikacji działania.
 
-I kliknij “OK”. \
-7. Znajdź i skopiuj ścieżkę do katalogu “platform-tools”, jeżeli używasz ustawień domyślnych powinna być to ścieżka: C:\Users\{Nazwa_użytkownika}\AppData\Local\Android\Sdk\platform-tools
-8. Dodaj tą ściężkę do PATH.
-9. Uruchom terminal i wpisz w nim “adb version” w celu weryfikacji działania.
 
 # Uruchomienie aplikacji
 ## Wersja 1
