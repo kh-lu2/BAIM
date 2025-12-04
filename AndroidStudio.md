@@ -11,7 +11,7 @@
 - [x] Android SDK Platform-Tools
 - [x] Google USB Driver
 
-I kliknij “OK”.
+I kliknij “OK”. \
 7. Znajdź i skopiuj ścieżkę do katalogu “platform-tools”, jeżeli używasz ustawień domyślnych powinna być to ścieżka: C:\Users\{Nazwa_użytkownika}\AppData\Local\Android\Sdk\platform-tools
 8. Dodaj tą ściężkę do PATH.
 9. Uruchom terminal i wpisz w nim “adb version” w celu weryfikacji działania.
