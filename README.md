@@ -1,6 +1,6 @@
 # Zadania
 Zadania 1 i 2 zakładają możliwość oglądania [kodu źródłowego aplikacji](https://github.com/t0thkr1s/allsafe-android). \
-Podczas interakcji z aplikacji, zwracaj uwagę na alerty/informacje zwrotne.
+Podczas interakcji z aplikacją, zwracaj uwagę na alerty/informacje zwrotne.
 
 ## Komendy Adb
 ```
